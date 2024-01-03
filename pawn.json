@@ -1,0 +1,29 @@
+{
+    "user": "CyberMor",
+    "repo": "sampvoice",
+    "resources": [
+        {
+            "name": "sv_control.zip",
+            "platform": "linux",
+            "archive": true,
+            "includes": ["sampvoice.inc"],
+            "plugins": ["sampvoice.so"],
+            "files": {
+                "control.cfg": "control.cfg"
+            }
+        },
+        {
+            "name": "sv_control.zip",
+            "platform": "windows",
+            "archive": true,
+            "includes": ["sampvoice.inc"],
+            "plugins": ["sampvoice.dll"],
+            "files": {
+                "control.cfg": "control.cfg"
+            }
+        }
+    ],
+    "runtime": {
+        "plugins": ["RizkyLimit/sampvoice"]
+    }
+}
