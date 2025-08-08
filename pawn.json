@@ -24,6 +24,6 @@
         }
     ],
     "runtime": {
-        "plugins": ["RizkyLimit/sampvoice"]
+        "plugins": ["rizkyana-id/sampvoice"]
     }
 }
